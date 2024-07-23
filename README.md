@@ -1,1 +1,2 @@
-Welcome, Here are all the tools that I use personally. 
+<h1>Drunken Bear Tools Repository<h1>
+Welcome to the Drunken Bear Tools Repository, where you will find a collection of tools I personally use and have developed for various purposes, including ethical hacking, anti-terrorism operations, child safety, scam baiting, and bug hunting.
